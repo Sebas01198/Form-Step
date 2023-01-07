@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+body{
+    background-color: $Light-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+a{
+    text-decoration: none;
+
+}
+.contenedor{
+    width: 90%;
+    max-width: 60vw;
+    height: 70vh;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+}
+.btn-next{
+    border: none;
+    padding: 15px 20px;
+    color: $White;
+    background-color:  $Marine-blue;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: .8;
+    }
+}
+.btn-back{
+    background-color: transparent;
+    border: none;
+    font-family: ubuntuMedium;
+    font-size: 18px;
+    color: $Marine-blue;
+    cursor: pointer;
+}
+
+.sections-steps{
+   width: 100%;
+   padding: 20px 0;
+   font-family: ubuntuRegular; 
+}
+
+.spaces{
+    height: 100%;
+    display: flex;
+    width: 35vw;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}

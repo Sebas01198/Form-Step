@@ -1,0 +1,169 @@
+@font-face {
+  font-family: ubuntuBold;
+  src: url("/assets/fonts/Ubuntu-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: ubuntuMedium;
+  src: url("/assets/fonts/Ubuntu-Medium.ttf");
+  font-weight: medium;
+}
+@font-face {
+  font-family: ubuntuRegular;
+  src: url("/assets/fonts/Ubuntu-Regular.ttf");
+  font-weight: regular;
+}
+aside {
+  width: 18vw;
+  background-image: url("../images/bg-sidebar-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border-radius: 20px;
+  padding: 35px;
+}
+aside .selection {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  font-family: ubuntuRegular;
+}
+aside .selection .circle {
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+aside .selection .circle span {
+  color: hsl(0deg, 0%, 100%);
+}
+aside .selection .texts {
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+aside .selection .texts p {
+  color: hsl(231deg, 11%, 63%);
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+aside .selection .texts h3 {
+  letter-spacing: 2px;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+body {
+  background-color: hsl(206deg, 94%, 87%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 60vw;
+  height: 70vh;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+}
+
+.btn-next {
+  border: none;
+  padding: 15px 20px;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(213deg, 96%, 18%);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-next:hover {
+  opacity: 0.8;
+}
+
+.btn-back {
+  background-color: transparent;
+  border: none;
+  font-family: ubuntuMedium;
+  font-size: 18px;
+  color: hsl(213deg, 96%, 18%);
+  cursor: pointer;
+}
+
+.sections-steps {
+  width: 100%;
+  padding: 20px 0;
+  font-family: ubuntuRegular;
+}
+
+.spaces {
+  height: 100%;
+  display: flex;
+  width: 35vw;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step-1 {
+  display: none;
+}
+.step-1 .button-first {
+  display: flex;
+  justify-content: right;
+}
+
+.step-2 h2 {
+  font-size: 35px;
+  font-family: ubuntuBold;
+  margin-bottom: 10px;
+}
+.step-2 .text-step-2 {
+  color: hsl(231deg, 11%, 63%);
+  margin-bottom: 40px;
+}
+.step-2 .cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.step-2 .cards .card {
+  border: 1px solid hsl(229deg, 24%, 87%);
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+.step-2 .cards .card img {
+  margin-bottom: 80px;
+}
+.step-2 .cards .card h3 {
+  color: hsl(213deg, 96%, 18%);
+}
+.step-2 .cards .card p {
+  color: hsl(231deg, 11%, 63%);
+}
+.step-2 .cards .card:hover {
+  border: 1px solid hsl(243deg, 100%, 62%);
+}/*# sourceMappingURL=styles.css.map */

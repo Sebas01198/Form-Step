@@ -1,0 +1,37 @@
+.step-2{
+    h2{
+        font-size: 35px;
+        font-family: ubuntuBold;
+        margin-bottom: 10px;
+    }
+    .text-step-2{
+        color: $Cool-gray;
+        margin-bottom: 40px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+       
+
+        .card{
+            border: 1px solid $Light-gray;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+            img{
+                margin-bottom: 80px;
+            }
+            h3{
+                color: $Marine-blue;
+            }
+            p{
+                color: $Cool-gray;
+            }
+
+            &:hover{
+                border: 1px solid $Purplish-blue;
+            }
+        }
+    }
+}
